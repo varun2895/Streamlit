@@ -22,8 +22,8 @@ conn =  presto.connect(host='*******',
 c = conn.cursor()
 
 con = cx_Oracle.connect("*****","****","*****")
-cursor_wmx = con.cursor()
-cursor_wmx.execute("***************")
+cursor = con.cursor()
+cursor.execute("***************")
 
 @st.cache(allow_output_mutation=True)
 def add_data(sku,max):
@@ -55,15 +55,15 @@ def upload_presto(df,BUCKET,SCHEMA,TABLE_NAME):
 # @st.cache(allow_output_mutation=True)
 # def client1_conn():
 # 	con = cx_Oracle.connect("*******","********","***********")
-# 	cursor_wmx = con.cursor()
-# 	cursor_wmx.execute("*********************")
+# 	cursor = con.cursor()
+# 	cursor.execute("*********************")
 # 	return con
 
 @st.cache(allow_output_mutation=True)
 def client2_conn():
 	con = cx_Oracle.connect("************","*************","*************")
-	cursor_wmx = con.cursor()
-	cursor_wmx.execute("********************")
+	cursor = con.cursor()
+	cursor.execute("********************")
 	return con
 
 @st.cache(allow_output_mutation=True)
