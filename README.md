@@ -4,7 +4,9 @@ Streamlit is an open-source python library for creating and sharing web apps for
 
 
 # Purpose
+### Solution
 
+![image](https://user-images.githubusercontent.com/39857587/160881882-488e9837-12bc-4f3c-8f72-e572c99877c4.png)
 
 
 ![image](https://user-images.githubusercontent.com/39857587/160767967-5bb64a62-72fa-47a5-841f-b5f2305adb4c.png)
